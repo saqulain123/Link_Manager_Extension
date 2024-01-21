@@ -1,0 +1,20 @@
+{
+    "name": "Link Saver",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Save important links",
+    "browser_action" :{
+        "default_popup": "popup.html",
+        "default_icon" : "logo.png"
+    },
+    "icons":{
+        "128": "logo.png"
+    },
+    "permissions": [
+      "storage",
+      "tabs"
+    ]
+  }
+  
+
+  

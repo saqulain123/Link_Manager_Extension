@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link Saver</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Link Saver</h1>
+  <p>Save your important links</p>
+  <form id="link-form">
+    <label>Link Name:</label>
+    <input type="text" id="link-name" name="link-name" required>
+    <label>Link URL:</label>
+    <input type="text" id="link-url" name="link-url" required>
+    <input type="button" id="submit-form" value="Save Link"></input>
+  </form>
+
+  <button id="show-all-links">Show All Links</button>
+
+  <div id="myList">
+  </div>
+  <script src="popup.js"></script>
+
+</body>
+
+</html>
